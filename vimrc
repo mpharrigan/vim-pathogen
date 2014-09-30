@@ -25,7 +25,9 @@ set shiftwidth=4
 set expandtab
 
 "Add line at 80 characters
-set colorcolumn=80
+if exists('+colorcolumn')
+    set colorcolumn=80
+endif
 
 "Set some filetypes
 au BufRead,BufNewFile *.md set filetype=markdown
