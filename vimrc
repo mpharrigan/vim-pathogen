@@ -41,3 +41,5 @@ nmap <silent> k gk
 nmap <silent> j gj
 imap <silent> <Up> <C-o>gk
 imap <silent> <Down> <C-o>gj
+
+set modeline
